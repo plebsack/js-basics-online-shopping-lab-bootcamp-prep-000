@@ -11,6 +11,12 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+
+ 
+    var min=1; 
+    var max=100;  
+    var random =Math.floor(Math.random() * (max - min)) + min; 
+    document.write("Random Number Generated : " + random );
 }
 
 function viewCart() {
